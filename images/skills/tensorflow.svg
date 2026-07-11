@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 48 64">
+       <style>
+    @keyframes first {
+      0% {
+        stroke-dasharray: 0 1600;
+      }
+      50% {
+        stroke-dasharray: 1600 1600;
+      }
+      50% {
+        fill: transparent;
+      }
+      75%, 100% {
+        fill: #FF8F00;
+      }
+    }
+
+    #py-icon {
+      fill: transparent;
+    }
+    .first-child {
+      stroke: #FF8F00;
+      stroke-width: 1px;
+      animation: first 5s linear forwards;
+      animation-iteration-count: infinite;
+    }
+    
+  </style>
+
+    <g fill="none"
+       stroke="#FF8F00"
+       stroke-width="1"
+       stroke-linejoin="round">
+    
+    
+
+        <path class='first-child' d="M0.5 17.6L23 4.8v52.6l-9-5.2V21.4L0.5 29.3Z"/>
+
+        <path class='first-child' d="M47.5 17.6L25 4.8v52.6l9-5.2V37.4l6.8 3.9-.1-10.1-6.7-3.9v-5.9l13.5 7.9Z"/>
+
+    </g>
+</svg>
